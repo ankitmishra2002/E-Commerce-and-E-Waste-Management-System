@@ -334,18 +334,7 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ---
 
-## Seeded Test Accounts
-
-SparkIT includes a preset database seeding script. Use these default accounts to quickly test multi-role features:
-
-| Role | Username / Email | Password | Access & Capabilities |
-| :--- | :--- | :--- | :--- |
-| **👤 Customer** | `user1@sparkit.com` | `User@123` | Storefront shopping, Cart, Orders, E-Waste Request submission |
-| **🏪 Recycle Vendor** | `vendor1@sparkit.com` | `Vendor@123` | Product catalog CRUD, E-Waste ticket inspection & quoting |
-| **🛡️ Platform Admin** | `admin@sparkit.com` | `Admin@123` | System oversight, Vendor approval, E-Waste transaction release |
-
 ---
-
 ## Documentation
 
 | Document | Description |
