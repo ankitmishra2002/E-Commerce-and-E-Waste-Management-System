@@ -2,7 +2,7 @@
 ### Next-Gen E-commerce and E-waste Management System
 
 <p align="center">
-  <img src="images/logo.png" alt="SparkIT Logo" width="160" style="border-radius: 16px; box-shadow: 0px 4px 10px rgba(0,0,0,0.15);" />
+  <img src="SPARKIT-new/SPARKIT.png" alt="SparkIT Logo" width="160" style="border-radius: 16px; box-shadow: 0px 4px 10px rgba(0,0,0,0.15);" />
 </p>
 
 <p align="center">
@@ -17,7 +17,6 @@
   <a href="#repository-structure">Repository Structure</a> · 
   <a href="#getting-started">Getting Started</a> · 
   <a href="#environment-variables">Environment Variables</a> · 
-  <a href="#seeded-test-accounts">Test Accounts</a> · 
   <a href="#documentation">Documentation</a>
 </p>
 
@@ -195,8 +194,6 @@ erDiagram
     
     addresses ||--o{ orders : "shipping target"
     addresses ||--o{ ewaste_requests : "pickup location"
-    
-    order_items ||--o{ returns : "returned items"
 ```
 
 ---
@@ -205,19 +202,19 @@ erDiagram
 
 ### 1. 🌐 Customer Landing Page & Storefront
 The Customer Landing Page features a modern, glassmorphic card layout showcasing platform metrics, primary call-to-actions, and quick catalog filters.
-![Customer Landing Page](images/screenshots/homepage.png)
+![Customer Landing Page](SPARKIT-new/project/images/screenshots/homepage.png)
 
 ### 2. ♻️ E-Waste Recycling Hub
 The E-Waste Recycle Hub allows users to log and track recycling pickup requests, displaying quoted prices, item age, and status steps.
-![E-Waste Recycling Hub](images/screenshots/ewaste_hub.png)
+![E-Waste Recycling Hub](SPARKIT-new/project/images/screenshots/ewaste_hub.png)
 
 ### 3. 🛡️ Administrative Command Center
 The Admin Dashboard provides real-time GMV metrics, registered user metrics, active vendor verification requests, and open complaint tickets.
-![Admin Command Center](images/screenshots/admin_dashboard.png)
+![Admin Command Center](SPARKIT-new/project/images/screenshots/admin_dashboard.png)
 
 ### 4. 🏪 Vendor Hub & Analytics
 The Vendor Hub displays detailed analytics tracking total earnings, orders processed, revenue trendlines, and low-stock alerts.
-![Vendor Hub & Analytics](images/screenshots/vendor_dashboard.png)
+![Vendor Hub & Analytics](SPARKIT-new/project/images/screenshots/vendor_dashboard.png)
 
 ---
 
@@ -272,7 +269,7 @@ SPARKIT-new/
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/ankitmishra2002/E-Commerce-and-E-Waste-Management-System.git
-cd E-Commerce-and-E-Waste-Management-System/project
+cd E-Commerce-and-E-Waste-Management-System/SPARKIT-new/project
 ```
 
 ### 2. Backend Setup
@@ -312,7 +309,7 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ## Environment Variables
 
-### Backend (`backend/.env`)
+### Backend (`SPARKIT-new/project/backend/.env`)
 
 | Variable | Description | Example / Default |
 | :--- | :--- | :--- |
@@ -328,7 +325,7 @@ Open your browser and navigate to `http://localhost:5173`.
 | `CLOUDINARY_API_SECRET` | Cloudinary secret key | `your_api_secret` |
 | `CLIENT_URL` | Front-end web client URL (CORS allowed origin) | `http://localhost:5173` |
 
-### Frontend (`frontend/.env`)
+### Frontend (`SPARKIT-new/project/frontend/.env`)
 
 | Variable | Description | Example / Default |
 | :--- | :--- | :--- |
@@ -336,13 +333,12 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ---
 
-
 ## Documentation
 
 | Document | Description |
 | :--- | :--- |
-| [backend/README.md](https://github.com/ankitmishra2002/E-Commerce-and-E-Waste-Management-System/blob/main/project/backend/README.md) | REST API endpoints, Drizzle ORM schemas, WebSocket events & backend notes |
-| [frontend/README.md](https://github.com/ankitmishra2002/E-Commerce-and-E-Waste-Management-System/blob/main/project/frontend/README.md) | Component architecture, Zustand stores, React Query caching & client config |
+| [backend/README.md](https://github.com/ankitmishra2002/E-Commerce-and-E-Waste-Management-System/blob/main/SPARKIT-new/project/backend/README.md) | REST API endpoints, Drizzle ORM schemas, WebSocket events & backend notes |
+| [frontend/README.md](https://github.com/ankitmishra2002/E-Commerce-and-E-Waste-Management-System/blob/main/SPARKIT-new/project/frontend/README.md) | Component architecture, Zustand stores, React Query caching & client config |
 
 ---
 
