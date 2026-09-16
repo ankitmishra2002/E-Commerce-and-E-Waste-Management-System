@@ -1,8 +1,8 @@
 # ⚡ SparkIT
-### Next-Gen E-Commerce & Certified Green E-Waste Management System
+### Next-Gen E-commerce and E-waste Management System
 
 <p align="center">
-  <img src="../oldIphone.png" alt="SparkIT Logo" width="120" style="border-radius: 20%; box-shadow: 0px 4px 10px rgba(0,0,0,0.15);" />
+  <img src="C:\Users\ankit\Downloads\SPARKIT-new\SPARKIT-new\SPARKIT.png" alt="SparkIT Logo" width="120" style="border-radius: 20%; box-shadow: 0px 4px 10px rgba(0,0,0,0.15);" />
 </p>
 
 <p align="center">
