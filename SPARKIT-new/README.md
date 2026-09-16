@@ -2,7 +2,7 @@
 ### Next-Gen E-Commerce & Certified Green E-Waste Management System
 
 <p align="center">
-  <img src="SPARKIT-new/oldIphone.png" alt="SparkIT Logo" width="120" style="border-radius: 20%; box-shadow: 0px 4px 10px rgba(0,0,0,0.15);" />
+  <img src="oldIphone.png" alt="SparkIT Logo" width="120" style="border-radius: 20%; box-shadow: 0px 4px 10px rgba(0,0,0,0.15);" />
 </p>
 
 <p align="center">
@@ -203,19 +203,19 @@ erDiagram
 
 ### 1. 🌐 Customer Landing Page & Storefront
 The Customer Landing Page features a modern, glassmorphic card layout showcasing platform metrics, primary call-to-actions, and quick catalog filters.
-![Customer Landing Page](SPARKIT-new/project/images/screenshots/homepage.png)
+![Customer Landing Page](project/images/screenshots/homepage.png)
 
 ### 2. ♻️ E-Waste Recycling Hub
 The E-Waste Recycle Hub allows users to log and track recycling pickup requests, displaying quoted prices, item age, and status steps.
-![E-Waste Recycling Hub](SPARKIT-new/project/images/screenshots/ewaste_hub.png)
+![E-Waste Recycling Hub](project/images/screenshots/ewaste_hub.png)
 
 ### 3. 🛡️ Administrative Command Center
 The Admin Dashboard provides real-time GMV metrics, registered user metrics, active vendor verification requests, and open complaint tickets.
-![Admin Command Center](SPARKIT-new/project/images/screenshots/admin_dashboard.png)
+![Admin Command Center](project/images/screenshots/admin_dashboard.png)
 
 ### 4. 🏪 Vendor Hub & Analytics
 The Vendor Hub displays detailed analytics tracking total earnings, orders processed, revenue trendlines, and low-stock alerts.
-![Vendor Hub & Analytics](SPARKIT-new/project/images/screenshots/vendor_dashboard.png)
+![Vendor Hub & Analytics](project/images/screenshots/vendor_dashboard.png)
 
 ---
 
@@ -310,7 +310,7 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ## Environment Variables
 
-### Backend (`SPARKIT-new/project/backend/.env`)
+### Backend (`project/backend/.env`)
 
 | Variable | Description | Example / Default |
 | :--- | :--- | :--- |
@@ -326,7 +326,7 @@ Open your browser and navigate to `http://localhost:5173`.
 | `CLOUDINARY_API_SECRET` | Cloudinary secret key | `your_api_secret` |
 | `CLIENT_URL` | Front-end web client URL (CORS allowed origin) | `http://localhost:5173` |
 
-### Frontend (`SPARKIT-new/project/frontend/.env`)
+### Frontend (`project/frontend/.env`)
 
 | Variable | Description | Example / Default |
 | :--- | :--- | :--- |
