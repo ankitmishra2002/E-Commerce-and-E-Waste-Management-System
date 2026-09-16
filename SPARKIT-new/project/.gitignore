@@ -58,3 +58,5 @@ Thumbs.db
 .eslintcache
 .vite/
 frontend/.vite/
+.env
+info.md
