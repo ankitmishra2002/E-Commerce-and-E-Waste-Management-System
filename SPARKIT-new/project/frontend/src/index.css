@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+
+
+  --color-brand-50: #f5f3ff;
+  --color-brand-100: #ede9fe;
+  --color-brand-200: #ddd6fe;
+  --color-brand-300: #c4b5fd;
+  --color-brand-400: #a78bfa;
+  --color-brand-500: #8b5cf6;
+  --color-brand-600: #7c3aed;
+  --color-brand-700: #6d28d9;
+  --color-brand-800: #5b21b6;
+  --color-brand-900: #4c1d95;
+
+
+  --color-dark-50: #f8fafc;
+  --color-dark-100: #f1f5f9;
+  --color-dark-200: #e2e8f0;
+  --color-dark-700: #334155;
+  --color-dark-750: #293548;
+  --color-dark-800: #1e293b;
+  --color-dark-850: #172033;
+  --color-dark-900: #0f172a;
+  --color-dark-950: #0b0f19;
+
+  /* Semantic Status Colors */
+  --color-success-text: #15803d;
+  --color-success-bg: #dcfce7;
+  --color-warning-text: #92400e;
+  --color-warning-bg: #fef3c7;
+  --color-danger-text: #991b1b;
+  --color-danger-bg: #fee2e2;
+  --color-info-text: #1d4ed8;
+  --color-info-bg: #dbeafe;
+}
+
+@layer base {
+  .dark {
+    --color-success-text: #bbf7d0;
+    --color-success-bg: #14532d;
+    --color-warning-text: #fde68a;
+    --color-warning-bg: #78350f;
+    --color-danger-text: #fecaca;
+    --color-danger-bg: #7f1d1d;
+    --color-info-text: #bfdbfe;
+    --color-info-bg: #1e3a5f;
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fafafa;
+  color: #0f172a;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  min-height: 100vh;
+}
+
+html.dark body {
+  background-color: #0b0f19;
+  color: #f1f5f9;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(229, 231, 235, 0.5);
+}
+
+html.dark .glass {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(51, 65, 85, 0.3);
+}
+
+.heading-display {
+  font-family: var(--font-display);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}

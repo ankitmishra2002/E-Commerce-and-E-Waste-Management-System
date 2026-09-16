@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
+!.env.example
+!.env.sample
+
+# Uploads directory contents (preserve directory structure via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Operating System Files & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary and Build Files
+dist/
+build/
+tmp/
+temp/
+*.tmp
